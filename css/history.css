@@ -1,0 +1,190 @@
+header, section, footer, aside, nav, article, figure 
+{
+	display: block;
+}
+			
+body 
+{
+	color: #1E90FF;
+	background-size: 120%;
+	background-color: #4682B4;
+	background-image: url("../images/historical_wallpaper.jpg");
+	background-position: center;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.wrapper
+{
+	width: 1300px;
+	margin: 70px auto 70px auto;
+	border: 20px groove	#4682B4;
+	background-color: #FFE4B5;
+}
+
+header 
+{
+	background-image: url("../images/title.png");
+}
+
+h1 
+{
+	text-indent: -9999px;
+	width: 1000px;
+	height: 150px;
+	margin: 0px;
+}
+
+nav, footer 
+{
+	font-size: bold;
+	clear: both;
+	color: #FFF5EE;
+	background-color: #6495ED;
+	height: 30px
+}
+
+nav ul 
+{
+	margin: 0px;
+	padding: 5px 0px 15px 150px;
+}
+
+nav li 
+{
+    font-size: 15px;
+	display: inline;
+	margin-right: 95px;
+}
+
+nav li a 
+{
+	color: #FFF5EE;
+}
+
+nav li a:hover, nav li a.navigation
+{
+	color: #000080;
+}
+
+section.description
+{
+	float: left;
+	width: 1000px;
+	height: 2360px;
+	border-right: 2px solid #CD853F;
+}
+
+article 
+{
+	clear: both;
+	overflow: auto;
+	width: 950px;
+	margin: 0px 0px 0px 25px;
+}
+
+hgroup 
+{
+	margin-top: 0px;
+}
+
+figure 
+{
+	float: left;
+	width: 875px;
+	height: 300px;
+	padding: 10px;
+	margin: 20px;
+	border: 10px groove #CD5C5C;
+}
+
+
+aside 
+{
+	width: 230px;
+	float: right;
+	padding: 0px 38px 10px 30px;
+}
+
+aside section a 
+{
+	display: block;
+	padding: 8px;
+	border-bottom: 1px solid #0000CD;
+}
+
+aside section a:hover 
+{
+	color: #1E90FF;
+	background-color: #EEE8AA;
+}
+
+a 
+{
+	color: #008B8B;
+	text-decoration: none;
+}
+
+h1, h2, h3 
+{
+	font-weight: bold;
+}
+
+h2, h3
+{
+	margin: 10px 0px 20px 0px;
+}
+
+h2 
+{
+	color: #0000CD;
+	line-height: 1.1em;
+	padding: 5px;
+}
+
+h3 
+{
+	color: #4B0082;
+}
+
+h4
+{
+	color: #9932CC;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+p
+{
+	color: #008080;
+}
+
+aside p
+{
+	font-size: 16px;
+	text-align: center;
+	color: #008B8B;
+	padding: 8px;
+	display: block;
+	border-bottom: 1px solid #0000CD;
+	border-top: 1px solid #0000CD;
+	
+}
+
+aside h2, aside section a, article
+{
+	text-align: center;
+}
+
+aside h2 
+{
+	color: #4169E1;
+}
+
+footer 
+{
+	font-size: 100%;
+	padding: 10px 0px 0px 470px;
+	height: 30px
+}
